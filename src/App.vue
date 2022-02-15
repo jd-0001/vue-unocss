@@ -5,8 +5,10 @@ const iconObj = ref<{ icon: string } | null>(null)
 // response.data => { "icon": "i-mdi-<ICON>" }
 fetch('https://mocki.io/v1/cc254402-ebd0-4878-b0a0-4fb4dac0ad09')
   .then(response => response.json())
-  .then(data => iconObj.value = data);
-
+  .then(data => {
+    iconObj.value = data
+    __unocss_runtime.extract(data.icon)
+  });
 </script>
 
 <template>

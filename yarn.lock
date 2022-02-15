@@ -228,6 +228,15 @@
   resolved "https://registry.yarnpkg.com/@unocss/reset/-/reset-0.24.4.tgz#c28e0049a801f71e44c1e9f95e580847fe5e7391"
   integrity sha512-UBc/yBnIJ9N7wAG2ML6xV4JpBXEmOloJLg6R+EPJNfIP7Zl3wH2lBeXlZEKFAbiSOhSkju5msdYw0N8SC8tbtQ==
 
+"@unocss/runtime@^0.24.4":
+  version "0.24.4"
+  resolved "https://registry.yarnpkg.com/@unocss/runtime/-/runtime-0.24.4.tgz#eae124b15b94125678cc39783ecc4436e7533a05"
+  integrity sha512-li0bzdlNw10pywTjvyRz/7fUxmsgEcY0yh6rssyLgmI8AAMGJaiBwCpN3XJ/ngq1RdJYwxcNJ0UC5c2dHgJPKg==
+  dependencies:
+    "@unocss/core" "0.24.4"
+    "@unocss/preset-attributify" "0.24.4"
+    "@unocss/preset-uno" "0.24.4"
+
 "@unocss/scope@0.24.4":
   version "0.24.4"
   resolved "https://registry.yarnpkg.com/@unocss/scope/-/scope-0.24.4.tgz#fb4b77ec2ca1b648440f2c0f4dc400aee464bac6"
